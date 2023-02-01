@@ -11,6 +11,7 @@ X_train.shape
 
 # %%
 plt.imshow(X_train[0], cmap='gray')
+plt.show()
 
 # %% [markdown]
 # creating model
@@ -31,6 +32,7 @@ img = cv2.imread('./dog.jpeg')
 
 # %%
 plt.imshow(img)
+plt.show()
 # bc cv read BRG
 
 # %%
@@ -39,10 +41,12 @@ lab_img = cv2.cvtColor(img, cv2.COLOR_BGR2LAB)
 
 # %%
 plt.imshow(rgb_img)
+plt.show()
 
 # %%
 
 plt.imshow(lab_img)
+plt.show()
 
 # %%
 
